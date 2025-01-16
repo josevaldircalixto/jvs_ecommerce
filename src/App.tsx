@@ -1,9 +1,9 @@
-import './App.css'
+import ProductDetails from './routes/ProductDetails';
 
-function App() {
+export default function App() {
   return (
-    <h1>JVC Ecommerce</h1>
-  )
+    <ProductDetails />
+  );
 }
 
-export default App
+
