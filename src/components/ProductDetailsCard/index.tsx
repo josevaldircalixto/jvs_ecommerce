@@ -19,7 +19,7 @@ export default function ProductDetailsCard({ product }: Props) {
         <p>{product.description}</p>
         <div className="dsc-category-container">
           {product.categories.map((item) => (
-            <ProductCategory key={item.id} name={item.name} />
+            <ProductCategory key={item.id} name={item.name} /> //retorna as tags de categorias do card dinamicamente
           ))}
         </div>
       </div>
